@@ -4,7 +4,7 @@ function generateQRCode() {
   qrcodeContainer.innerHTML = ""; // Bersihkan QR Code sebelumnya
 
   if (!isValidURL(url)) {
-      alert("Masukkan URL yang valid!");
+      alert("Masukkan URL yang Benar dan valid!");
       return;
   }
 
